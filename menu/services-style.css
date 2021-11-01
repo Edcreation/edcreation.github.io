@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:url("../images/services.jpg");
+  color: #fff;
+}
+.navbar{
+  align-items: left;
+  text-decoration]: none;
+  background-color: none;
+  width: 100%;
+  padding: 10px 0;
+  top 0;
+  z-index: 999;
+  transition: .3s linear; 
+}
+.inner-width{
+  max-width: 2000px;
+  margin: auto;
+  padding: 0 400px;
+}
+}
+.menu-toggler{
+  background: none;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  z-index: 999;
+}
+.menu-toggler span{
+  display: black;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  position: relative;
+  transition: .2s linear;
+}
+.navbar-menu a{
+  align-items: right;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 30px;
+  transition: .2s linear;
+}
+.navbar-menu a:active{
+  text-decoration: underline;
+}
+.navbar-menu a:hover{
+  color:#48dbfb;
+  padding: 0 10px;
+  font-weight: bolder;
+}
+.logo{
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.logo span{
+  color: #FF0000;
+}
+.planb a{
+  color: #C19A6B;
+   text-decoration: none;
+}
+.planb a:hover {
+  color: hotpink;
+}
+.container{
+  position: relative;
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.container .card {
+  position: relative;
+  max-width: 300px;
+  height: 215px; 
+  background: #ebe4d3;
+  padding: 20px 15px;
+  margin: 30px 10px;
+  border-radius: 10px; 
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+  transition: 0.5s ease-in-out;
+}
+.container .card:hover{
+  height: 420px;
+}
+.container .card .imgbx{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px
+  
+}
+.container .card .imgbx img{
+  max-width: 100%;
+  border-radius: 2px;
+  border-radius: 10px;
+}
+.container .card .content{
+  color: black;
+  margin-top: -140;
+  padding: 10px 15px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+.content h2:hover{
+  color: #48dbfb;
+}
+
+
