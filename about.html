@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>About Us</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="#221C35">
+   <section class="banner">
+   	<header>
+   		<a href="#" class="logo" class="font-effect-neon">IZACU</a>
+   		
+   		<div class="navmenu">
+   		<a href="index.html">Home</a>
+   		<a href="about.html">About</a>
+   		<a href="services.html">Services</a>
+   		<a href="works.html">Works</a>
+   	
+   		</div>
+   		<div class="toggle"></div>
+   	</header>
+
+   <div class="box">
+    	<h2 class="aboutus">About Us</h2>
+    	<p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
+    </div>
+    
+   	<ul class="menu">
+   		<li><a href="index.html">Home</a></li>
+   		<li><a href="about.html">About</a></li>
+   		<li><a href="services.html">Services</a></li>
+   		<li><a href="works.html">Works</a></li>
+   	</ul>
+   </section>
+
+
+  <script >
+  	 const toggle = document.querySelector('.toggle');
+  	 const banner = document.querySelector('.banner');
+  	 toggle.onclick = function(){
+  	 toggle.classList.toggle('active');
+  	 banner.classList.toggle('active');
+  	}
+  </script>
+</body>
+</html>
