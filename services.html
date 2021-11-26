@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Services</title>
+</head>
+<body bgcolor="#221C35">
+   <section class="banner">
+   	<header>
+   		<a href="#" class="logo" class="font-effect-neon">IZACU</a>
+   		
+   		<div class="navmenu">
+   		<a href="index.html">Home</a>
+   		<a href="about.html">About</a>
+   		<a href="services.html">Services</a>
+   		<a href="works.html">Works</a>
+   	
+   		</div>
+   		<div class="toggle"></div>
+   	</header>
+    <section class="innerbox">
+      <div class="support">
+        <img src="images/web.png">
+        <h3>  Web Design</h3>
+      </div>
+      <div class="support">
+        <img src="images/mobile.jpg">
+        <h3> Mobile App Development</h3>
+      </div>
+          <div class="support">
+        <img src="images/graphic.png">
+        <h3> Graphic Design</h3>
+      </div>
+       <div class="support">
+        <img src="images/support.jpg">
+        <h3>  Technical Support</h3>
+      </div>
+    </section>
+   	<ul class="menu">
+   		<li><a href="index.html">Home</a></li>
+   		<li><a href="about.html">About</a></li>
+   		<li><a href="services.html">Services</a></li>
+   		<li><a href="works.html">Works</a></li>
+   	</ul>
+   </section>
+   
+  <script >
+  	 const toggle = document.querySelector('.toggle');
+  	 const banner = document.querySelector('.banner');
+  	 toggle.onclick = function(){
+  	 toggle.classList.toggle('active');
+  	 banner.classList.toggle('active');
+  	}
+  </script>
+</body>
+</html>
