@@ -22,5 +22,5 @@ var verify = verify(myName);
 }
 
 window.addEventListener("load", function() {
-    alert(" To see our works, you have to Login First.");
+    alert(" To see our works, you have to Login First.", "works");
   })
